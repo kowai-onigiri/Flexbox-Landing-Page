@@ -24,6 +24,7 @@
 .bottom {
     display: flex;
     flex: 3;
+    padding: 40px 0 40px 0;
 }
 
 .left {
@@ -38,7 +39,7 @@
 
 .right {
     display: flex;
-    flex: 1.5;
+    flex: 1.2;
 }
 
 
@@ -47,7 +48,7 @@
     display: flex;
     justify-content: flex-start;
     flex: 1;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 24px;
     padding-left: 200px;
 }
@@ -56,7 +57,7 @@
     color: #e5e7eb;
     flex: 1.5;
     justify-content: flex-end;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
     padding-right: 200px;
     
@@ -80,6 +81,7 @@ li {
 li a {
     text-decoration: none;
     color: #fff;
+    font-weight: lighter;
     display: block;
     padding: 10px;
     text-align: center;
@@ -89,15 +91,16 @@ li a {
 .main-text {
     color: #fff;
     flex: 0;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 48px;
+    font-weight: bolder;
 }
 
 .below-text {
     color: #e5e7eb;
     flex: 0;
     align-self: center;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
     padding: 10px 0px 20px 0px;
 }
@@ -114,7 +117,7 @@ li a {
     border: none;
     color: #fff;
     padding: 0 20px 0 20px;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 12px;
     height: 30px;
     box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
@@ -132,7 +135,7 @@ li a {
 }
 
 .header-img {
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 3px;
     box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
@@ -156,7 +159,7 @@ li a {
 .info-header {
     font-size: 36px;
     color:#1F2937;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -181,10 +184,11 @@ li a {
     flex: 2;
 }
 
-img.info-img {
+.info-img {
     width: 200px;
     height: auto;
     border-radius: 3px;
+    margin: 10px 5px 0 5px;
     box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
 }
 
@@ -193,7 +197,7 @@ img.info-img {
     display: flex;
     flex: 0;
     font-size: 18px;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     color: #1F2937;
     width: 200px;
@@ -217,13 +221,13 @@ img.info-img {
 .quote-block {
     font-size: 24px;
     font-style: italic;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     margin: 0 30px 0 30px;
 }
 
 .quote-speaker {
     font-size: 18px;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-weight: bolder;
     display: flex;
     align-self: flex-end;
@@ -255,8 +259,8 @@ img.info-img {
     display: flex;
     flex-direction: column;
     flex: 1;
-    font-family: "Quicksand", monospace;
-    padding: 25px 20px 25px 60px;
+    font-family: "Quicksand", sans-serif;
+    padding: 30px 20px 30px 100px;
 
 }
 
@@ -274,7 +278,7 @@ img.info-img {
 }
 
 .signup-button {
-    flex: 1.1;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,7 +291,7 @@ img.info-img {
     border: 1px solid #fff;
     color: #fff;
     padding: 0 20px 0 20px;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 12px;
     height: 30px;
 
@@ -299,7 +303,7 @@ img.info-img {
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 12px;
-    font-family: "Quicksand", monospace;
+    font-family: "Quicksand", sans-serif;
     flex: 1;
     display: flex;
     justify-content: center;
