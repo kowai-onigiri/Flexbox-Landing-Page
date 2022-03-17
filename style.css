@@ -11,8 +11,6 @@
 .header {
     background-color: #1F2937;
     color: white;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex: 3;
     display: flex;
     flex-direction: column;
@@ -33,14 +31,14 @@
     flex: 1;
     flex-direction: column;
     align-items: baseline;
-    padding: 30px 30px 30px 50px;
+    padding: 30px 30px 30px 200px;
     justify-content: flex-start;
 
 }
 
 .right {
     display: flex;
-    flex: 1;
+    flex: 1.5;
 }
 
 
@@ -51,7 +49,7 @@
     flex: 1;
     font-family: "Quicksand", monospace;
     font-size: 24px;
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 .nav {
@@ -60,7 +58,7 @@
     justify-content: flex-end;
     font-family: "Quicksand", monospace;
     font-size: 18px;
-    padding-right: 50px;
+    padding-right: 200px;
     
 }
 
@@ -126,7 +124,7 @@ li a {
 .image {
     color: #fff;
     flex: 1;
-    padding: 20px 50px 20px 10px;
+    padding: 50px 200px 50px 10px;
     display: flex;
     justify-content: flex-end;
     align-self: center;
@@ -134,8 +132,8 @@ li a {
 }
 
 .header-img {
-    width: 90%;
-    height: 75%;
+    width: 300px;
+    height: auto;
     border-radius: 3px;
     box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
     
@@ -184,7 +182,7 @@ li a {
 }
 
 img.info-img {
-    width: 100px;
+    width: 200px;
     height: auto;
     border-radius: 3px;
     box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
@@ -196,7 +194,9 @@ img.info-img {
     flex: 0;
     font-size: 18px;
     font-family: "Quicksand", monospace;
+    text-align: center;
     color: #1F2937;
+    width: 200px;
 }
 
 /* quote section */
@@ -207,7 +207,7 @@ img.info-img {
     display: flex;
     flex-direction: column;
     flex: 3;
-    padding: 50px 60px 40px 60px;
+    padding: 50px 200px 40px 200px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -239,6 +239,8 @@ img.info-img {
     flex: 3;
     display: flex;
     padding: 40px 40px 40px 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-box {
@@ -252,27 +254,27 @@ img.info-img {
 .signup-text {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex: 1;
     font-family: "Quicksand", monospace;
-    padding: 20px 0 20px 40px;
+    padding: 25px 20px 25px 60px;
 
 }
 
 
 .signup-text-top {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bolder;
 
 }
 
 
 .signup-text-bottom {
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
 .signup-button {
-    flex: 1;
+    flex: 1.1;
     display: flex;
     justify-content: center;
     align-items: center;
