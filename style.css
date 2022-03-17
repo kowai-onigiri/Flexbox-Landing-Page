@@ -2,10 +2,8 @@
 
 .flexbox-container {
     display: flex;
-    border: 5px solid black;
     flex-direction: column;
     box-sizing: border-box;
-    min-height: 600px;
 }
 
 
@@ -112,7 +110,7 @@ li a {
     
 }
 
-button {
+.txt-btn {
     border-radius: 3px;
     background-color: #3882f6;
     border: none;
@@ -239,14 +237,73 @@ img.info-img {
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex: 3;
-    border: 5px solid goldenrod;
+    display: flex;
+    padding: 40px 40px 40px 40px;
 }
+
+.signup-box {
+    display: flex;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    font-family: "Quicksand", monospace;
+    padding: 20px 0 20px 40px;
+
+}
+
+
+.signup-text-top {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+
+.signup-text-bottom {
+    font-size: 18px;
+
+}
+
+.signup-button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-btn {
+    border-radius: 3px;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0 20px 0 20px;
+    font-family: "Quicksand", monospace;
+    font-size: 12px;
+    height: 30px;
+
+}
+
+/* footer section */
 
 .footer {
     background-color: #1F2937;
-    color: #fff;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex: 0.5;
-    border: 5px solid slateblue;
+    color: #e5e7eb;
+    font-size: 12px;
+    font-family: "Quicksand", monospace;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-txt {
+    padding: 20px 20px 20px 20px;
 }
