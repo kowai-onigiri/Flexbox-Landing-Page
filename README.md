@@ -1,5 +1,5 @@
 # Flexbox-Landing-Page
 
-Projected completed through Wes Bos's Flexbox Tutorial.
+Projected completed for The Odin Project curriculum.
 
 https://kowai-onigiri.github.io/Flexbox-Landing-Page/
